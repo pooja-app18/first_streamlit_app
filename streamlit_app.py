@@ -56,7 +56,7 @@ if streamlit.button('Get Fruit load list'):
 # write your own comment - what does this do?
 #streamlit.dataframe(fruityvice_normalized)
 
-streamlit.stop()
+#streamlit.stop()
 #import snowflake.connector
 
 def insert_row_snowflake(new_fruit):
