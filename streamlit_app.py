@@ -46,7 +46,7 @@ def get_fruit_load_list():
 if streamlit.button('Get Fruit load list'):
   my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
   my_data_rows = get_fruit_load_list()
-  treamlit.dataframe(my_data_rows)
+  streamlit.dataframe(my_data_rows)
 #import requests
 #fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+"fruit_choice")
 #streamlit.text(fruityvice_response.json())
